@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Bookshelf</title>
+</head>
+
+<body>
+    <header>
+        <img src="./images/Welcome-wave.svg" alt="waves" />
+        <nav>
+            <div class="menu-bar">
+                <div class="menu-button" onclick="menuButtonClick(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="menu-overlay">
+                    <div class="overlay"></div>
+                    <ul class="nav-menu" role="list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">About us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="profile">
+                <div class="overlay"></div>
+                <i class="fas fa-user avatar" onclick="menuButtonClick(this)"></i>
+                <div>
+                    <div class="overlay"></div>
+                    <ul class="nav-avatar" role="list">
+                        <li><a href="#">Books</a></li>
+                        <li><a href="#">Favorites</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+        </nav>
+        <section class="welcome">
+            <p class="welcome_subtitle">Прегледай любимите си книги</p>
+            <h1 class="welcome_title">Моите книги</h1>
+        </section>
+    </header>
+    <main>
+        <section class="mybooks">
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/maystorstvoto.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Майсторството" Робърт Грийн</h2>
+                    <p>
+                        „Майсторството“ е книга за самопомощ от Робърт Грийн, която изследва концепцията за майсторство в различни области и как може да бъде постигнато. Книгата се основава на исторически личности и казуси, за да илюстрира пътищата и стратегиите, използвани
+                        от майстори занаятчии, художници и новатори. Той обхваща теми като чиракуване, менторство и целенасочена практика и твърди, че майсторството изисква търпение, постоянство и дългосрочен ангажимент към определена област. Книгата
+                        има за цел да вдъхнови читателите да следват своя собствен път към майсторството и да предостави насоки как да развият уменията и мисленето, необходими за постигането му.
+                    </p>
+                </div>
+            </div>
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/klub-5-sutrinta.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Клуб 5 сутринта" Робин Шарма</h2>
+                    <p>
+                        „Клубът в 5 сутринта“ е книга за самопомощ от Робин Шарма, която изследва идеята за ранно събуждане и използване на допълнителното време, за да се съсредоточите върху личностното развитие и растеж. Книгата се основава на опита на успешни хора, които започват
+                        деня си рано, и се фокусира върху ползите от сутрешната рутина, включително повишена енергия, подобрена производителност и намален стрес. Книгата предоставя практически съвети за разработване на сутрешна рутина, включително съвети
+                        за поставяне на цели, създаване на здравословен график за сън и максимизиране на ползите от ранните сутрешни часове. Основното послание на книгата е, че ранното събуждане и използването на времето за самоусъвършенстване може да
+                        доведе до по-пълноценен и успешен живот.
+                    </p>
+                </div>
+            </div>
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/atomni_navici.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Атомни Навици" Джеймс Клиър</h2>
+                    <p>
+                        „Atomic Habits“ е книга за самопомощ от Джеймс Клиър, която се фокусира върху идеята, че малки, последователни промени в поведението могат да доведат до значително подобрение с течение на времето. Книгата обхваща теми като как се формират навиците, защо
+                        е трудно да се променят и предоставя практически стратегии за изграждане и поддържане на нови навици. Основното послание е, че малки стъпки, повтаряни последователно, могат да се превърнат в забележителни резултати.
+                    </p>
+                </div>
+            </div>
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/pytqt-na-freelancera.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Пътят на фрийлансъра" Роберт Влаг</h2>
+                    <p>
+                        "The Freelancer's Path" by Robert Waugh is a self-help book for freelancers and independent professionals. The book covers topics such as finding work, building a personal brand, and balancing the demands of freelance life. It provides practical advice
+                        and strategies for building a successful freelance career, including tips for networking, pricing, and time management. The book draws on the author's own experiences and the experiences of other successful freelancers, and aims
+                        to inspire and guide freelancers as they navigate the challenges and opportunities of the freelance life. The main message of the book is that with the right approach and mindset, anyone can build a successful and fulfilling career
+                        as a freelancer.
+                    </p>
+                </div>
+            </div>
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/zadulbochena-rabota.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Задълбочена работа" Кал Нюпорт</h2>
+                    <p>
+                        „Deep Work“ е нехудожествена книга от Кал Нюпорт, която изследва значението на фокусираната и неразсеяна работа в днешния свят на постоянно разсейване и претоварване с информация. Книгата твърди, че способността за извършване на задълбочена работа става
+                        все по-ценна и рядка в съвременната икономика и че овладяването на това умение може да доведе до повишена производителност, креативност и удовлетворение както в личния, така и в професионалния живот. Книгата предоставя практически
+                        съвети за развиване на задълбочена работна практика, включително съвети за минимизиране на разсейването, оптимизиране на средата за фокусиране и разработване на график за целенасочена работа. Основното послание на книгата е, че
+                        като инвестират време и усилия в задълбочена работа, хората могат да постигнат страхотни неща и да намерят смисъл и удовлетворение в работата си.
+                    </p>
+                </div>
+            </div>
+            <div class="bookcard">
+                <div class="bookcard__img">
+                    <img src="./images/zovyt-na-smelostta.jpg" alt="bookcard image" />
+                </div>
+                <div class="content">
+                    <h2>"Зовът на смелостта" Райън Холидей</h2>
+                    <p>
+                        „Призивът за смелост“ от Рианън Холидей е книга за самопомощ, която изследва идеята за смелостта и как тя може да бъде развита и прилагана в ежедневието. Книгата обхваща теми като справяне със страховете, прегръщане на промяната и излизане извън зоната
+                        на комфорт. Той се основава на лични анекдоти и научни изследвания, за да предостави прозрения и практически съвети за изграждане на смелост и устойчивост. Основното послание на книгата е, че смелостта не е липсата на страх, а
+                        по-скоро способността да се предприемат действия въпреки страха и че всеки може да развие смелостта да се изправи пред предизвикателствата си и да преследва целите си.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./app.js"></script>
+
+</html>
